@@ -1,0 +1,15 @@
+WIRING GUIDE
+
+1. DM860H Stepper Motor Driver
+PUL+/STEP -  GPIO 25 (ESP32)
+DIR+      -  GPIO 26 (ESP32)
+ENA+      -  GPIO 27 (ESP32)
+PUL−      -  GND
+DIR−      -  GND
+ENA−      -  GND
+V+        -  12V Battery
+V-        -  GND
+A+	  -  Coil A+ (NEMA 23)
+A−	  -  Coil A− (NEMA 23)
+B+	  -  Coil B+ (NEMA 23)
+B−	  -  Coil B− (NEMA 23)
